@@ -1,0 +1,134 @@
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* body color for contact me page */
+
+.color-change-2x {
+
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+          animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #FFDADA;
+  }
+  100% {
+    background: #9DDFD3;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #FFDADA;
+  }
+  100% {
+    background: #9DDFD3;
+  }
+}
+
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* COLOR-BODY*/
+
+.color-change-2{
+background: linear-gradient(90deg, #809ff6, #df88fb, rgba(255,144,168,1));
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* TOP CONATAINER */
+
+.topcontainer{
+  text-align: center;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* TOP CONATAINER */
+
+h1,h2,h3,h4,h5,p,a{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* cards */
+
+.card-group{
+  border: 0;
+  padding:20px;
+  margin:0;
+
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* vibration of the qoute */
+
+.vibrate-12 {
+	animation: vibrate-1 1.2s linear infinite both;
+}
+@keyframes vibrate-1 {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* banner at the end */
+
+.success_pic{
+  width:100%;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+@media only screen and (min-width: 768px) {
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /* QOUTE */
+  .vibrate-1{
+  padding: 20px 50px 0 50px;
+  font-size: 2rem;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /* QOUTE'S copywrite */
+  .write-name{
+  padding-bottom: 30px;
+  font-size: 1.75rem;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /* QOUTE'S copywrite */
+
+  .card-group{
+    padding: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

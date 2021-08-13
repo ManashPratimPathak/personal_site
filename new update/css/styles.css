@@ -1,0 +1,319 @@
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/* BODY */
+/* COLOR-CHANGING BODY*/
+.color-change-2x {
+  -webkit-animation: color-change-2x 2s linear infinite alternate both;
+  animation: color-change-2x 2s linear infinite alternate both;
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+
+  100% {
+    background: #b22cff;
+  }
+}
+
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+
+  100% {
+    background: #b22cff;
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  FRONT-PICTURE: the position of the fornt picture has been changed by 18px to the right*/
+.fornt-picture {
+  width: 100%;
+  position: relative;
+  left: 18px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  INTRO*/
+.intro {
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  BRIEF-INTRO*/
+.briefIntro {
+  padding-top: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  FONT-SIZE*/
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  TABLE SPACING OF THE SOCIO-LINKS*/
+.socio-table {
+  margin: 20px auto 0px auto;
+}
+
+td {
+  padding: 10px;
+}
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 1.2s linear infinite both;
+  animation: vibrate-1 1.2s linear infinite both;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+/*  BUTTON EFFECTS*/
+.roll-in-blurred-right {
+  -webkit-animation: roll-in-blurred-right 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: roll-in-blurred-right 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+@-webkit-keyframes roll-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) rotate(720deg);
+    transform: translateX(1000px) rotate(720deg);
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes roll-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) rotate(720deg);
+    transform: translateX(1000px) rotate(720deg);
+    -webkit-filter: blur(50px);
+    filter: blur(50px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+@media only screen and (min-width: 768px) {
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  FRONT-PICTURE: the position of the fornt picture has been changed by 18px to the right*/
+  .fornt-picture {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  BRIEF-INTRO*/
+  .briefIntro {
+    padding: 40px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  FONT-SIZE*/
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++ */
+@media only screen and (min-width: 1000px) {
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  FRONT-PICTURE:*/
+  .fornt-picture {
+    float: left;
+    width: 60%;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    left: -60px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  INTRO*/
+  .intro {
+    text-align: left;
+    line-height: 2;
+    padding: 0px;
+    position: relative;
+    left: -30px;
+    top: 45px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  FONT-SIZE*/
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  /*  BODY*/
+  .color-change-2x {
+    padding: 10px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  .brief, .briefIntro {
+    position: relative;
+    left: 3px;
+  }
+
+  /* +++++++++++++++++++++++++++++++++++++++++ */
+  .socio-table {
+    position: relative;
+    bottom: 70px;
+  }
+}
